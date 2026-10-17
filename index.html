@@ -217,7 +217,7 @@ h1 em, .service-inner h2 em { color: var(--teal); font-style: normal; }
 
 </style>
   <script>
-const toggle = document.querySelector('.menu-toggle');
+document.addEventListener('DOMContentLoaded', () => { const toggle = document.querySelector('.menu-toggle');
 const nav = document.querySelector('#main-nav');
 if (toggle && nav) {
   toggle.addEventListener('click', () => {
@@ -233,7 +233,7 @@ if (toggle && nav) {
   }));
 }
 const year = document.querySelector('#year');
-if (year) year.textContent = new Date().getFullYear();
+if (year) year.textContent = new Date().getFullYear(); });
 
 
 document.addEventListener('DOMContentLoaded', () => {
