@@ -1,26 +1,7 @@
-WEST ELECTRICAL WEBSITE: ONLINE AI ASSISTANT SETUP
+MOHA ROYAL ELECTRICAL COMPANY QUICK HELP
 
-The standalone HTML preview cannot call the online AI service by itself. The assistant uses server.mjs so the private API key is kept on the server and is never placed in the public webpage.
+This website uses a built-in quick-answer chat that runs in the visitor’s browser. It does not need a server, paid AI account, or API key. It is suitable for a free static website host such as GitHub Pages.
 
-WHAT IS NEEDED
-- A website host that can run Node.js server applications (a static-only host is not enough for this setup).
-- Node.js 20 or newer on the host.
-- An OpenAI API account with billing/API access. API usage may incur charges.
-- Set these private environment variables in the host's settings:
-    OPENAI_API_KEY = your secret API key
-    OPENAI_MODEL = a model available to your API account
-    PORT = supplied by the host, if required by that host
+The quick-answer chat covers common questions about services, locations, estimates, and contact details. It does not understand or answer every possible question like an open-ended AI assistant. Visitors can use its WhatsApp link to ask the team directly.
 
-DEPLOY
-1. Upload the complete West_Electrical_Website folder to the Node.js host.
-2. Set the environment variables in the host dashboard. Do not put your API key in index.html or share it publicly.
-3. Set the host's start command to: node server.mjs
-4. Open the hosted website and ask the assistant a question. It will answer general questions and company service questions. It is instructed to decline direct insults and abusive attacks politely.
-
-LOCAL PREVIEW
-The file West_Electrical_Website.html is only a visual preview. It has the chat design and limited built-in answers; open-ended AI replies require the hosted server and API configuration above.
-
-CONTACT
-West Electrical Engineering Technology
-WhatsApp/call: 054 684 8962, 020 841 2718, 024 043 5149
-Email: suleywest06@gmail.com
+No API key is required. Do not add an API key to the public website files.
