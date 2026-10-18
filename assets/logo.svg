@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 220" role="img" aria-labelledby="title desc">
+<title id="title">Moha Royal Electrical Company</title>
+<desc id="desc">A gold lightning bolt inside a teal shield, alongside the Moha Royal Electrical Company name.</desc>
+<rect width="1000" height="220" rx="26" fill="#fff"/>
+<path d="M112 18 196 49v56c0 55-35 84-84 103-49-19-84-48-84-103V49z" fill="#0b6570"/>
+<path d="m124 42-56 84h39l-14 56 59-88h-41z" fill="#f4b544"/>
+<text x="228" y="97" font-family="Arial,sans-serif" font-size="52" font-weight="800" letter-spacing="1.2" fill="#15384b">MOHA ROYAL</text>
+<text x="230" y="153" font-family="Arial,sans-serif" font-size="35" font-weight="700" letter-spacing="3" fill="#0b6570">ELECTRICAL COMPANY</text>
+</svg>
